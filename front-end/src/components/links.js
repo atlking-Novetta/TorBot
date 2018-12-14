@@ -11,8 +11,7 @@ class Links extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            links: props.links,
-            websocket: props.websocket
+            links: props.links
         };
         this.onHome = this.onHome.bind(this);
     }
